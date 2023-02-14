@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.team-card-item {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 350px;
+  height: 100px;
+  border: 1px solid White;
+  border-radius: 8px;
+  margin: 3px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.team-image {
+  height: 70px;
+  width: 70px;
+  padding-right: 5px;
+}
+.team-name {
+  font-size: 24px;
+}
+@media screen and (max-width: 576px) {
+  .team-card-item {
+    width: 180px;
+    height: 150px;
+  }
+  .team-image {
+    height: 70px;
+    width: 70px;
+  }
+  .team-name {
+    font-size: 20px;
+  }
+}
